@@ -39,7 +39,7 @@ Ardından, script'i çalıştırabilirsiniz:
 ```bash
 ./youtube_downloader.sh
 ```
-Script yanında indirilen termux-url-opener scriptini termux'un $HOME dizini içerisinde bin klasörüne koymanız gerekiyor eğer bin dosyası yoksa bu komut ile oluşturabilirsiniz:
+Script yanında indirilen `termux-url-opener` scriptini termux'un $HOME dizini içerisinde bin klasörüne koymanız gerekiyor eğer bin dosyası yoksa bu komut ile oluşturabilirsiniz:
 ```bash
 mkdir $HOME/bin
 ```
