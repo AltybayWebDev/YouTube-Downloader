@@ -1,4 +1,26 @@
-# YouTube Downloader
+# YouTube Downloader Script (Termux İçin)
+
+Bu script, **yt-dlp** kullanarak YouTube videolarını MP3 veya MP4 formatında indirmenize olanak tanır.  
+Ayrıca **YouTube oynatma listelerini (playlist)** doğrudan indirmenizi sağlar.
+
+## 📥 Gereksinimler
+
+Aşağıdaki bileşenleri yüklemeniz gerekmektedir:
+
+- **Termux** (Android için terminal emülatörü)  
+  - [Termux'u İndir (Github)](https://github.com/termux/termux-app/releases)  
+  - [Termux'u İndir (Önerilen)](https://github.com/termux/termux-app)
+- **yt-dlp** (YouTube video indirme aracı)  
+- **FFmpeg** (Ses ve video işlemleri için)
+
+### 🚀 **Kurulum**
+Aşağıdaki komutları **Termux** içinde çalıştırarak kurulumu tamamlayabilirsiniz:
+
+```bash
+pkg update && pkg upgrade -y
+pkg install python ffmpeg -y
+pip install yt-dlp
+```
 
 Bu projede, YouTube videolarını MP3 ve MP4 formatlarında indirmenizi sağlayan bir bash script'i bulunmaktadır. Script, kullanıcıdan aldığı YouTube linklerini belirlediğiniz dizine indirir ve istediğiniz kaliteyi seçmenize olanak tanır.
 
@@ -20,12 +42,7 @@ Bu projede, YouTube videolarını MP3 ve MP4 formatlarında indirmenizi sağlaya
 git clone https://github.com/AltybayWebDev/YouTube-Downloader.git
 cd YouTube-Downloader
 ```
-### 2. Gereksinimler
-Bu script, `yt-dlp` adlı bir aracı kullanmaktadır. Eğer `yt-dlp` yüklü değilse, aşağıdaki komutla yükleyebilirsiniz:
-```bash
-pkg install yt-dlp
-```
-### 3. Script'i Çalıştırma
+### 2. Script'i Çalıştırma
 Script'i çalıştırmadan önce, `youtube-downloader.sh` dosyasına çalıştırma izni vermeniz gerekir:
 ```bash
 chmod +x youtube-downloader.sh
@@ -34,5 +51,5 @@ Ardından, script'i çalıştırabilirsiniz:
 ```bash
 ./youtube_downloader.sh
 ```
-### 4. Script ile Kullanım
+### 3. Script ile Kullanım
 Script, YouTube linklerini aldıktan sonra format (MP3/MP4) seçmenizi ister. İndirme işlemi başlamadan önce ses/video kalitesini de seçebilirsiniz.
