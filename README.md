@@ -9,7 +9,7 @@ Aşağıdaki bileşenleri yüklemeniz gerekmektedir:
 
 - **Termux** (Android için terminal emülatörü)  
   - [Termux'u İndir (Github)](https://github.com/termux/termux-app/releases)  
-  - [Termux'u İndir (Önerilen)](https://github.com/termux/termux-app)
+  - [Termux'u İndir (Önerilen)]([https://github.com/termux/termux-app](https://f-droid.org/repo/com.termux_118.apk))
 - **yt-dlp** (YouTube video indirme aracı)  
 - **FFmpeg** (Ses ve video işlemleri için)
 
